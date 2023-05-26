@@ -1,0 +1,88 @@
+body {background-color: #EFF0F3!important}
+
+.container {
+  margin-top: 50px;
+  width: 576px!important;
+}
+
+form {
+  background: #2FCC9A;
+  border: 2px solid #228e6c;
+  border-radius: 10px;
+  padding: 20px 10px;
+  margin-bottom: 20px;
+  height: 135px;
+}
+
+.btn-success {
+    margin-top: 25px;
+}
+
+#task {
+  width: 80%;
+  height: 40px;
+  float: left;
+  margin-right: 5%;
+  margin-bottom: 2%;
+}
+
+ul {
+  padding: 0 10px!important;
+}
+
+ul li {
+  list-style: none;
+  padding: 15px;
+  margin-bottom: 10px;
+  background: #fcfcfc;
+  border: 1px solid silver;
+  border-radius: 5px;
+  position: relative;
+  flex-direction: row;
+}
+
+ul i {
+    font-size: 12px;
+    color: rgb(149, 149, 149);
+    margin-left: 10px;
+}
+
+ul li:hover {
+  background: #e5e5e5;
+}
+
+ul li button {
+  border: 0;
+  padding: 5px 15px;
+  color: white;
+  font-size: 13px;
+  position: absolute;
+  border-radius: 5px;
+}
+
+#del {
+    left: 450px;
+    background: #db5757;
+}
+
+#del:hover {
+  background: #a04141;
+}
+
+#compl {
+    left: 358px;
+    background: #20c170;
+}
+
+#compl:hover {
+  background: #15844c;
+}
+
+#ed {
+    left: 300px;
+    background: #5797db;
+}
+
+#ed:hover {
+  background: #345981;
+}
