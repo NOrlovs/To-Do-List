@@ -24,7 +24,7 @@
       while($row = $query->fetch(PDO::FETCH_OBJ)) {
         echo '<li><b>'.$row->task.'</b>
         <i>'.$row->tasktime.'</i>
-        <a href="/edit.php?id='.$row->id.'"><button id="ed">Edit</button></a>
+        <a href="/editform.php?id='.$row->id.'"><button id="ed">Edit</button></a>
         <a href="/delete.php?id='.$row->id.'"><button id="compl">Complete</button></a>
         <a href="/delete.php?id='.$row->id.'"><button id="del">Delete</button></a></li>';
       }
